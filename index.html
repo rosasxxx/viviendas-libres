@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <title>Viviendas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.95, maximum-scale=0.95, user-scalable=0" />
+        <!--[if lt IE 9]>
+    <script src="js/json2.min.js"></script>
+    <script type="text/javascript">
+        window.__ltie9 = true;
+    </script>
+    <![endif]-->
+    
+    <link rel="alternate" type="application/json+oembed" href="https://datawrapper.de/api/plugin/oembed?url=https%3A%2F%2Fcharts.datawrapper.de%2FGwOcI%2F&amp;format=json" title="Viviendas" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/GwOcI.all.css"></link>
+
+    <script type="text/javascript" charset="utf-8">
+    window.__locale = 'es-ES';
+    </script>
+
+      <script type="text/javascript" charset="utf-8" src="//datawrapper.dwcdn.net/assets/globalize.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//datawrapper.dwcdn.net/assets/cultures/globalize.culture.es-ES.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//datawrapper.dwcdn.net/assets/vendor/raphael-js/2.1.2/raphael-min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//datawrapper.dwcdn.net/assets/vendor/chroma-js/0.5.4/chroma.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//datawrapper.dwcdn.net/assets/vendor/d3-light/3.1.8/d3-light.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/line-chart-3904602674918f2fa8d4e09638390a89.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/default-5baee189e1a2f0bf680f4910cc958098.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/chart-753c771b6f0ebc215cab76b0fca5e03aab20b743.min.js"></script>
+  
+</head>
+<body class="dw-chart chart theme-default vis-line-chart">
+
+        
+
+    
+
+
+<div class="dw-chart-header" id="header">
+    
+        <h1 >
+        <span class="chart-title">Viviendas</span>
+    </h1>
+
+        <p class="chart-intro">Número de viviendas libres terminadas por meses, 2008-2016</p>
+
+
+    </div>
+
+
+
+<div class="dw-chart-body" id="chart"></div>
+
+<div class="dw-chart-footer" id="footer">
+            <div class="footer-left">
+                            <span data-src="Source:" class="source-block">Source:                <a target="_blank" class="source" href="http://www.fomento.gob.es/BE2/?nivel=2&amp;orden=32000000">Ministerio de Fomento</a></span>
+                        <a href="data.csv">Get the data</a>
+        </div>
+        <div class="footer-right">
+            Created with <a href="datawrapper.de" target="_blank">Datawrapper</a>
+        </div>
+    </div>
+
+        <script type="text/javascript" charset="utf-8">
+
+    if (document.getElementsByTagName('script').length > 0) $('body').addClass('js');
+
+    __dw.init({
+        chartJSON: {"id":"GwOcI","title":"Viviendas","theme":"default","createdAt":"2016-02-29 12:51:12","lastModifiedAt":"2016-02-29 22:52:50","type":"line-chart","metadata":{"data.csv":{"transpose":false,"vertical-header":true,"horizontal-header":true,"column-format":{"Mes":{"ignore":true},"Anyo":{"ignore":true},"fecha":{"type":"date","ignore":true}}},"visualize":{"highlighted-series":[],"highlighted-values":[],"filter-missing-values":true,"direct-labeling":false,"legend-position":"right","show-grid":false,"fill-between":false,"line-mode":"curved","scale-y1":"linear","user-change-scale":false,"annotate-time-axis":"2008,2011,PSOE\n2012,2015,PP","custom-range-y":[0,80000],"base-color":3},"describe":{"source-name":"Ministerio de Fomento","source-url":"http:\/\/www.fomento.gob.es\/BE2\/?nivel=2&orden=32000000","number-format":"-","number-divisor":0,"number-append":"","number-prepend":"","intro":"N\u00famero de viviendas libres terminadas por meses, 2008-2016"},"publish":{"embed-width":748,"embed-height":444,"background":"#ffffff","text":"#000000"},"annotate":{"notes":"Curso 24horas con datos, APM"}},"authorId":34572,"showInGallery":false,"language":null,"guestSession":null,"lastEditStep":5,"publishedAt":"2016-02-29 22:52:55","publicUrl":"https:\/\/charts.datawrapper.de\/GwOcI\/index.html","publicVersion":3,"organizationId":null,"forkedFrom":null},
+        chartLocale: 'es-ES',
+        themeId: 'default',
+        visId: 'line-chart',
+        visJSON: {"title":"Line Chart","id":"line-chart","extends":"raphael-chart","dimensions":2,"order":40,"axes":{"x":{"accepts":["text","date"]},"y1":{"accepts":["number"],"multiple":true},"y2":{"accepts":["number"],"multiple":true,"optional":true}},"options":{"base-color":{"type":"base-color","label":"Base color"},"sep-labeling":{"type":"separator","label":"Customize labeling","depends-on":{"chart.min_columns[y1]":2}},"direct-labeling":{"type":"checkbox","label":"Direct labeling","default":false,"depends-on":{"chart.min_columns[y1]":2,"chart.max_columns[y2]":0},"help":"Show the labels right nearby the line ends instead of a separate legend"},"legend-position":{"type":"radio-left","label":"Legend position","default":"right","depends-on":{"direct-labeling":false,"chart.min_columns[y1]":2},"options":[{"value":"right","label":"right"},{"value":"top","label":"top"},{"value":"inside","label":"inside left"},{"value":"inside-right","label":"inside right"}]},"sep-lines":{"type":"separator","label":"Customize lines"},"show-grid":{"type":"checkbox","hidden":true,"label":"Show grid","default":false},"connect-missing-values":{"type":"checkbox","label":"Connect lines between missing values"},"fill-between":{"type":"checkbox","label":"Fill area between lines","default":false,"depends-on":{"chart.min_columns[y1]":2,"chart.max_columns[y1]":2,"chart.max_columns[y2]":0}},"fill-below":{"type":"checkbox","label":"Fill area below line","defaut":false,"depends-on":{"chart.min_columns[y1]":1,"chart.max_columns[y1]":1,"chart.max_columns[y2]":0}},"banking":{"type":"linechart-banking","label":"Suggest aspect ratio that banks average line slopes to 45\u00b0","help":"Adjust the chart height so that the lines are banked to 45\u00b0 (on average). Can help to avoid exaggerating and understating of slopes."},"line-mode":{"type":"radio-left","label":"Line interpolation","options":[{"label":"Straight","value":"straight"},{"label":"Curved","value":"curved"},{"label":"Stepped","value":"stepped"}],"default":"straight"},"sep-y-axis":{"type":"separator","label":"Customize y-axis"},"custom-range-y":{"type":"custom-range","label":"Custom range","help":"This feature allows you to explicitely extend the y axis to custom values. \nSwap min\/max to invert the axis."},"scale-y1":{"type":"radio-left","label":"Scale (y-axis)","options":[{"label":"linear","value":"linear"},{"label":"logarithmic","value":"log"}],"default":"linear","depends-on":{"chart.min_value[y1]":">0","chart.magnitude_range[y1]":">3"}},"user-change-scale":{"type":"checkbox","label":"Let user change scale","default":false,"depends-on":{"chart.min_value[y1]":">0","chart.magnitude_range[y1]":">3"}},"annotate-time-axis":{"type":"textarea","label":"Annotate x axis:","placeholder":"from,to,text","width":"180px"}},"locale":{"tooManyLinesToLabel":"Your chart contains <b>more lines than we can label<\/b>, so automatic \nlabeling is turned off. To fix this <ul><li>filter some columns in the data \ntable in the previous step, or<\/li><li>use direct labeling and the highlight \nfeature to label the lines that are important to your story.<\/li><\/ul>","useLogarithmicScale":"Use logarithmic scale","couldNotParseAllDates":"Some of the <b>dates in your x-axis could not be parsed<\/b>, hence the line \nchart cannot display a proper date axis. To fix this<ul><li>return to the \nprevious step and clean your date column.<\/li><li><a href=\"http:\/\/blog.datawrapper.de\/2013\/cleaning-your-data-in-datawrapper\/\">Read more \nabout how to do this.<\/a><\/li><\/ul>"},"__static_path":"assets\/plugins\/visualization-line-chart\/","__plugin":"visualization-line-chart","version":"1.5.0","icon":"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<!DOCTYPE svg PUBLIC \"-\/\/W3C\/\/DTD SVG 1.1 Basic\/\/EN\" \"http:\/\/www.w3.org\/Graphics\/SVG\/1.1\/DTD\/svg11-basic.dtd\">\n<svg version=\"1.1\" baseProfile=\"basic\" id=\"Ebene_1\"\n\t xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" width=\"100px\" height=\"100px\"\n\t viewBox=\"0 0 100 100\" xml:space=\"preserve\">\n<g>\n\t<line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\" x1=\"9\" y1=\"79.5\" x2=\"91\" y2=\"79.5\"\/>\n\t<line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\" x1=\"9\" y1=\"59.5\" x2=\"91\" y2=\"59.5\"\/>\n\t<line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\" x1=\"9\" y1=\"39.5\" x2=\"91\" y2=\"39.5\"\/>\n\t<line fill=\"none\" stroke=\"#000000\" stroke-width=\"0.5\" stroke-miterlimit=\"10\" x1=\"9\" y1=\"19.5\" x2=\"91\" y2=\"19.5\"\/>\n<\/g>\n<line fill=\"none\" stroke=\"#000000\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"10\" y1=\"75.814\" x2=\"35.937\" y2=\"42.674\"\/>\n<line fill=\"none\" stroke=\"#000000\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"35.937\" y1=\"42.674\" x2=\"62.719\" y2=\"55.584\"\/>\n<line fill=\"none\" stroke=\"#000000\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"62.719\" y1=\"55.584\" x2=\"90.562\" y2=\"23.755\"\/>\n<\/svg>\n","hasCSS":true},
+        metricPrefix: {"3":"k","6":"m","9":"b","12":"t"},
+        lang: 'es',
+        data: "fecha-refinada,Viviendas\n2008\/01\/01,50337\n2008\/02\/01,52401\n2008\/03\/01,62960\n2008\/04\/01,45681\n2008\/05\/01,58400\n2008\/06\/01,63968\n2008\/07\/01,54695\n2008\/08\/01,38453\n2008\/09\/01,47234\n2008\/10\/01,35187\n2008\/11\/01,27224\n2008\/12\/01,27091\n2009\/01\/01,33887\n2009\/02\/01,31949\n2009\/03\/01,37139\n2009\/04\/01,31605\n2009\/05\/01,32945\n2009\/06\/01,31923\n2009\/07\/01,38323\n2009\/08\/01,22534\n2009\/09\/01,22667\n2009\/10\/01,28472\n2009\/11\/01,24095\n2009\/12\/01,21016\n2010\/01\/01,22857\n2010\/02\/01,23404\n2010\/03\/01,17568\n2010\/04\/01,24950\n2010\/05\/01,20894\n2010\/06\/01,20385\n2010\/07\/01,21103\n2010\/08\/01,9405\n2010\/09\/01,11998\n2010\/10\/01,16981\n2010\/11\/01,13923\n2010\/12\/01,15104\n2011\/01\/01,9925\n2011\/02\/01,8912\n2011\/03\/01,11802\n2011\/04\/01,12643\n2011\/05\/01,8494\n2011\/06\/01,9678\n2011\/07\/01,13066\n2011\/08\/01,5970\n2011\/09\/01,10282\n2011\/10\/01,15496\n2011\/11\/01,6998\n2011\/12\/01,7777\n2012\/01\/01,5784\n2012\/02\/01,7312\n2012\/03\/01,7466\n2012\/04\/01,6764\n2012\/05\/01,6637\n2012\/06\/01,7348\n2012\/07\/01,8689\n2012\/08\/01,3013\n2012\/09\/01,5138\n2012\/10\/01,6681\n2012\/11\/01,7834\n2012\/12\/01,7417\n2013\/01\/01,3263\n2013\/02\/01,3071\n2013\/03\/01,4251\n2013\/04\/01,3525\n2013\/05\/01,4034\n2013\/06\/01,3871\n2013\/07\/01,4062\n2013\/08\/01,2546\n2013\/09\/01,2744\n2013\/10\/01,4278\n2013\/11\/01,3611\n2013\/12\/01,3974\n2014\/01\/01,3164\n2014\/02\/01,3643\n2014\/03\/01,3266\n2014\/04\/01,2692\n2014\/05\/01,3168\n2014\/06\/01,3289\n2014\/07\/01,2907\n2014\/08\/01,1901\n2014\/09\/01,2090\n2014\/10\/01,3029\n2014\/11\/01,2923\n2014\/12\/01,3154\n2015\/01\/01,2604\n2015\/02\/01,2745\n2015\/03\/01,2734\n2015\/04\/01,3492\n2015\/05\/01,2930\n2015\/06\/01,3407\n2015\/07\/01,4667\n2015\/08\/01,2832\n2015\/09\/01,3058\n"
+    });
+
+    </script>
+
+    <script type="text/javascript">
+    setTimeout(function() {
+        var ref = document.referrer ? document.referrer.match(/^https?\:\/\/([^\/?#]+)(?:[\/?#]|$)/i)[1] : '';
+        var img = document.createElement('img');
+        img.setAttribute('width', 1);
+        img.setAttribute('height', 1);
+        img.setAttribute('src', '//stats.datawrapper.de/GwOcI/pixel.gif?r='+ref);
+        document.body.appendChild(img);
+    },10);
+</script>
+
+
+</body>
+</html>
